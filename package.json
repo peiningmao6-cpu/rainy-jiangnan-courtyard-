@@ -1,0 +1,20 @@
+{
+  "name": "rainy-jiangnan-courtyard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "An intimate, rain-soaked Jiangnan courtyard diorama built with Three.js.",
+  "engines": { "node": ">=20.19.0 <21 || >=22.12.0" },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node tools/build-offline.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "package": "node tools/package-release.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "vite": "^7.1.0"
+  }
+}

@@ -1,0 +1,47 @@
+听雨小筑 · 雨夜中式庭院
+Rainy Jiangnan Courtyard
+
+【直接查看】
+1. 将整个项目 ZIP 解压。
+2. 双击“雨夜中式庭院.html”，使用 Chrome 或 Edge 打开。
+3. 离线版无需联网、无需安装 Node.js，也无需启动服务器。
+需要支持 WebGL 2 的现代浏览器与显卡。
+
+【操作】
+鼠标左键拖拽：旋转。
+鼠标滚轮：缩放。
+鼠标右键拖拽：平移。
+双击画布：恢复初始视角。
+触屏单指拖拽：旋转。
+触屏双指：缩放和平移。
+
+【模型说明】
+所有建筑、家具、植物和纹理由程序生成，模型定义保存在 src 源码中。
+正屋采用完整双坡瓦顶。旋转至正面并缩放，可透过敞开的木格门和透光窗观察室内陈设。
+场景没有人物或屏幕操作面板。
+项目没有独立的 GLB、OBJ 或 Blender 模型文件。
+
+【修改源码】
+需要 Node.js 20.19+（20.x）或 22.12+，以及 pnpm 11.25.0。
+在项目根目录打开终端：
+pnpm install --frozen-lockfile
+pnpm dev
+
+修改完成后运行：
+pnpm build
+
+这会同步更新 dist、根目录离线 HTML 和 docs/index.html。
+再运行 pnpm package，可生成 release 内的干净 GitHub 上传文件夹与 ZIP。
+源码 index.html 需要通过本地服务器运行；双击查看请使用“雨夜中式庭院.html”。
+
+【上传与在线分享】
+上传 release/GitHub上传文件-rainy-jiangnan-courtyard 文件夹内部的全部内容。
+在 GitHub 点击 Commit changes 后，文件才会保存到仓库。
+若 .gitignore 被提示隐藏，请用 Add file → Create new file 在网页新建，粘贴其本地内容。
+开通在线预览：Settings → Pages → Deploy from a branch → main → /docs → Save。
+将 GitHub 提供的站点网址分享给读者，即可在线拖拽、旋转和缩放。
+详细步骤、截图与许可信息见 README.md。
+
+【许可】
+MIT License，Copyright (c) 2026 peiningmao6-cpu。
+第三方许可见 THIRD_PARTY_NOTICES.md。

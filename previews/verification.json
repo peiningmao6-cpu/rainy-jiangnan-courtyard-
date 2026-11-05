@@ -1,0 +1,97 @@
+{
+  "url": "offline standalone HTML",
+  "errors": [],
+  "initial": {
+    "stats": {
+      "elapsed": 0.12,
+      "renderedFrames": 3,
+      "drawCalls": 1354,
+      "triangles": 324874,
+      "geometries": 383,
+      "textures": 40,
+      "rainCount": 800,
+      "rippleCount": 37,
+      "reducedMotion": false
+    },
+    "position": [
+      14.704675436302383,
+      13.388907328909848,
+      17.855677315510036
+    ],
+    "target": [
+      0,
+      1.1,
+      0
+    ],
+    "distance": 26.19293674678631,
+    "domCanvases": 1,
+    "visibleUI": 0,
+    "bodyText": "",
+    "invalidPositions": 0,
+    "viewport": {
+      "width": 1280,
+      "height": 960,
+      "scrollWidth": 1280
+    },
+    "batching": {
+      "before": 3089,
+      "after": 385,
+      "batched": 2797
+    },
+    "houseDry": 3.763192529648223,
+    "yardExposed": 0
+  },
+  "changed": {
+    "position": [
+      5.91064860013155,
+      14.446172589437932,
+      19.712676413393442
+    ],
+    "distance": 24.528467156356502
+  },
+  "pan": [
+    -0.16590917902920138,
+    1.1406925201416018,
+    0.005838723195275598
+  ],
+  "mobile": {
+    "width": 430,
+    "scrollWidth": 430,
+    "height": 800,
+    "canvasHeight": 800,
+    "stats": {
+      "elapsed": 2.4211000001430527,
+      "renderedFrames": 43,
+      "drawCalls": 1354,
+      "triangles": 324874,
+      "geometries": 383,
+      "textures": 40,
+      "rainCount": 800,
+      "rippleCount": 37,
+      "reducedMotion": false
+    }
+  },
+  "reduced": {
+    "elapsed": 0.12,
+    "renderedFrames": 3,
+    "drawCalls": 1354,
+    "triangles": 324874,
+    "geometries": 383,
+    "textures": 40,
+    "rainCount": 280,
+    "rippleCount": 37,
+    "reducedMotion": true
+  },
+  "checks": {
+    "noRuntimeErrors": true,
+    "noVisibleUI": true,
+    "finiteGeometry": true,
+    "rotation": true,
+    "zoom": true,
+    "pan": true,
+    "responsive": true,
+    "shelter": true,
+    "reducedMotion": true
+  },
+  "networkRequests": []
+}
